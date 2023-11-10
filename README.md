@@ -6,8 +6,12 @@ git clone git@github.com:microsoft/AirSim.git
 cd AirSim  
 ./setup.sh  
 ./build.sh 
-./install_unreal.sh  
-  
+./install_unreal.sh
+cd UnrealEngine
+./Setup.sh  
+./GenerateProjectFiles.sh  
+make
+
 cd ros  
 catkin build
 source devel/setup.bash  
