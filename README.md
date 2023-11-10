@@ -9,7 +9,8 @@ cd AirSim
 ./install_unreal.sh  
   
 cd ros  
-catkin build  
+catkin build
+source devel/setup.bash  
 git clone   
 ```
 ## download assets
