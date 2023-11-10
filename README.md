@@ -11,6 +11,6 @@ cd AirSim
 cd ros  
 catkin build
 source devel/setup.bash  
-git clone   
+git clone git@github.com:YoshikiMaekawa2000/airsim_controller_ros.git  
 ```
 ## download assets
